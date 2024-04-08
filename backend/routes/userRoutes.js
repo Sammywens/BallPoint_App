@@ -8,13 +8,13 @@ import verifyJWT from '../middleware/verifyJwt.js';
 
 const router = express.Router();
 //Use middleware in all users routes.
-router.use(verifyJWT);
+// router.use(verifyJWT);
 
 
-router.get('/', getUsers);
+router.get('/', verifyJWT, getUsers);
 router.post('/create', createNewUser);
-router.patch('/update', updateUser);
-router.delete('/delete', deleteUser);
+router.patch('/:id', verifyJWT, updateUser);
+router.delete('/delete', verifyJWT, deleteUser);
 
 
 export default router;

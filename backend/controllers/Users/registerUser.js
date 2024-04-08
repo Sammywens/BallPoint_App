@@ -28,7 +28,7 @@ const createNewUser = asyncHandler( async(req, res) => {
 
    const userObject = (!Array.isArray(roles) || !roles.length)
        ? { username, "password": hashedPassword }
-       : { username, "password": hashedPassword, roles }
+       : { username, "password": hashedPassword, roles:[roles] }
     //create a new user
     const user = await User.create(userObject);
     //error handling

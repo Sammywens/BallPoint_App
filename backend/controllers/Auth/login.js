@@ -18,7 +18,7 @@ const login = asyncHandler(async (req, res) => {
     const user = await User.findOne({ username }).exec()
 
     if (!user || !user.active) {
-        return res.status(401).json({ message: 'Unauthorized' })
+        return res.status(401).json({ message: 'Unauthorized, User not found!' })
     };
 
     //Match password with that stored in the database
@@ -36,7 +36,7 @@ const login = asyncHandler(async (req, res) => {
             }
         },
         process.env.ACCESS_TOKEN_SECRET,
-        { expiresIn: '10m' }
+        { expiresIn: '30m' }
     );
 
     const refreshToken = jwt.sign(

@@ -1,0 +1,5 @@
+{
+    "username":"Sammy1",
+    "password":"R3dbishob22",
+    "roles":"Manager"
+}
