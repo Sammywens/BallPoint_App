@@ -11,9 +11,9 @@ To get started with CMMS, follow these steps:
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/Jaaystones/Note-API.git
+   git clone https://github.com/Sammywens/BallPoint_App.git
 
-   cd Note-API
+   cd BallPoint_App
 
    ```
 
@@ -60,4 +60,4 @@ Submit a pull request
 This project is licensed under the ISC License.
 
 ## Contact :book:
-If you have any questions or need further assistance, please contact [Joel Paul] at [Joelpaul345@gmail.com].
+If you have any questions or need further assistance, please contact [Samuel Nwene] at [nwene.samuel@gmail.com].
