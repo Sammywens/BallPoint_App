@@ -1,9 +1,9 @@
-# CMMS (Computerized Project Management System)
+# CMMS (Computerized Maintenance Management System)
 
 
 ## Description
 
-CMMS is a Computerized Project Management System that helps you efficiently manage your projects. This system is built with Node.js, Express, and MongoDB, providing features for secure user authentication, data storage, and more. All of these features has been applied to build a note app for storing, and processing documents for a business.
+CMMS is a Computerized Maintenance Management System that helps you efficiently manage your projects. This system is built with Node.js, Express, and MongoDB, providing features for secure user authentication, data storage, and more. All of these features has been applied to build a note app for storing, and processing documents for a business.
 
 ## Installation
 
