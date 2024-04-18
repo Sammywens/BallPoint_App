@@ -46,7 +46,7 @@ const updateNote = asyncHandler(async (req, res) => {
     // Update the note
     const updatedNote = await note.save();
 
-    res.json(`'${updatedNote.title}' updated`);
+    res.json(`${updatedNote.title} updated`);
 });
 
 export default updateNote;
